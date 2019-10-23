@@ -1,0 +1,72 @@
+
+
+body{
+  font-family: 'Rajdhani', sans-serif;
+}
+
+#landing{
+  background-color: grey;
+  display: flex;
+  height: 100vh;
+
+}
+#landing-text{
+  background-color: white;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+
+.button{
+
+  padding: 0.5rem 2rem;
+  border: 1px #ccc solid;
+  display: inline-block;
+  margin: 0;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #333;
+  transition: background 500ms ease;
+}
+
+#landing-image{
+  background-image: url(https://images.unsplash.com/photo-1527422265102-22027ee90fcd?ixlib=rb-0.3.5&s=202c2d0e3032a5d49a1067e83e274052&auto=format&fit=crop&w=634&q=80);
+  width: 60%;
+}
+
+#header{
+  text-align: center;
+  background-color: grey;
+  font-size: 30px;
+}
+
+main{
+  max-width: 1000px;
+  box-shadow: 5px 3px 56px 14px rgba(0,0,0,0.23);
+  margin: auto;
+}
+
+#headline {
+
+  height:auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: end;
+ padding-right: 1rem;
+ padding-left: 1rem;
+}
+.caption{
+  text-align: center;
+}
+#content{
+  width: 100%;
+  margin: 0px auto 0px auto;
+}
+
+img{
+  margin: 0px;
+  width: 100%;
+}
