@@ -1,0 +1,16 @@
+.container{
+    border: solid black 2px;
+    height:300px;
+}
+
+.card{
+    margin:auto;
+    width: 600px;
+}
+
+.tasten{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+grid-gap: 10px;
+}
