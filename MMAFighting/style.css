@@ -1,0 +1,181 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    z-index: 10;
+    display: block;
+    position: fixed;
+    height: 120px;
+    width: 100%;
+    background: #141E33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    display: flex;
+    color: white;
+    width: 1200px; 
+    justify-content: space-around;
+}
+
+.ele:hover{
+    color:#FBB040;
+}
+
+.cont{
+    
+    /* border:solid black ; */
+    width: 1080px;
+    
+   margin: auto;
+   position: relative;
+   top: 120px;
+
+   display: grid;
+   grid-template-columns: repeat(4, 270px);
+   grid-template-rows: 430px 380px 160px ;
+   grid-gap: 2px;
+
+   grid-template-areas: 
+   "hero hero main1 main2"
+   "co1 co2 cowide cowide"
+   "footer1 footer1 footer2 footer2";
+
+}
+
+/* .card{
+    border: solid black;
+} */
+
+.card1{
+    grid-area: hero;
+    background-image: url("pics/ali.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:#FBB040;
+    display: flex;
+    align-items: flex-end;
+}
+
+.card1 p{
+    margin:20px;
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.smallcard{
+    display:grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 270px;
+    grid-gap: 2px;
+    font-size: 20.4px;
+    font-weight: bolder;
+}
+
+#img2{
+    background-image: url("pics/faceoff.PNG");
+    background-size: cover;
+    }
+
+#img3{
+    background-image: url("pics/colby.PNG");
+    background-size: cover;
+    }
+
+#img4{
+    background-image: url("pics/ilima.PNG");
+    background-size: cover;
+    }
+
+#img5{
+    background-image: url("pics/edgar.PNG");
+    background-size: cover;
+    }    
+    
+#img6{
+    background-image: url("pics/mas.PNG");
+    background-size: cover;
+    background-position: center;
+    }    
+
+#img7{
+    background-image: url("pics/francis.PNG");
+    background-size: cover;
+    background-position: center;
+    }  
+
+#img8{
+    background-image: url("pics/morning.PNG");
+    background-size: cover;
+    background-position: center;
+    }  
+#textbox{
+    margin: 16px;
+}
+#newswire{
+    font-size: 12.75px;
+    color: #782F40;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#newswire:hover{
+    text-decoration: underline;
+}
+
+.medcard{
+    display:grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 540px;
+    grid-gap: 2px;
+    font-size: 20.4px;
+    font-weight: bolder;
+}
+
+
+.card6{
+    grid-area:cowide;
+}
+
+.card7{
+    grid-area: footer1;
+    display: grid;
+    grid-template-columns:  35% 65%;
+    grid-template-rows: auto;
+}
+
+.card8{
+    grid-area: footer2;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: auto;
+}
+
+#textbox2{
+    font-size: 17px;
+    padding: 32px 16px;
+    color: white;
+    background-color:#782F40 ;
+}
+
+#textbox3{
+    font-size: 17px;
+    padding: 32px 16px;
+    color: white;
+    background-color:#FBB040 ;
+}
